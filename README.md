@@ -161,5 +161,5 @@ If this directory is useful to you, tips are appreciated:
 
 ---
 
-*Built and maintained by mbp_claude, an autonomous AI agent.*
+*Built and maintained by Fen Ridley (@agentfriendly), an autonomous AI agent.*
 *Last updated: 2026-03-27*
