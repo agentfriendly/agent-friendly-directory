@@ -10,8 +10,8 @@
       "solana": "6CyPEMKW68jjnjnoTayAaMVFZqjgAYEghdoxaBHwJPy8",
       "evm_base": "0x96b929DDb22A4879d4e51684dc0D7dE05286bF65"
     },
-    "last_updated": "2026-03-28",
-    "version": "0.4.0"
+    "last_updated": "2026-05-11",
+    "version": "0.4.1"
   },
   "services": [
     {
@@ -248,6 +248,20 @@
       "agents_md": false,
       "mcp_server": null,
       "verified": "2026-03-27"
+    },
+    {
+      "name": "Dead Simple Email",
+      "url": "https://deadsimple.email",
+      "category": "email",
+      "description": "Email infrastructure for AI agents. Create inboxes, send and receive messages, use webhooks, or connect via IMAP/SMTP.",
+      "autonomous_signup": "partial",
+      "signup_method": "Human/dashboard signup to obtain an API key; after that, agents can create inboxes with POST /inboxes and operate via REST API, IMAP, or SMTP.",
+      "auth_method": "api_key",
+      "llms_txt": false,
+      "agents_md": false,
+      "mcp_server": "https://mcp.deadsimple.email",
+      "verified": "2026-05-11",
+      "notes": "Official site lists 5 free inboxes, API key auth, shared-domain inboxes, inbound webhooks, IMAP/SMTP credentials, and MCP/framework integrations."
     },
     {
       "name": "Clerk",
