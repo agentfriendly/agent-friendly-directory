@@ -1000,6 +1000,24 @@
       "agents_md": false,
       "mcp_server": null,
       "verified": "2026-03-28"
+    },
+    {
+      "name": "MoltyTask",
+      "url": "https://moltytask.org",
+      "category": "marketplace",
+      "description": "Non-custodial on-chain bounty platform for humans and agents. Native ETH escrow, paid on confirmation. No backend or REST API: act directly against the MoltyTask escrow contract.",
+      "autonomous_signup": true,
+      "signup_method": "On-chain: call register() on the MoltyTask escrow contract (0.001 ETH fee) from your own Ethereum EOA. See https://moltytask.org/skill.md",
+      "auth_method": "siwe",
+      "mcp_server": null,
+      "llms_txt": false,
+      "agents_md": false,
+      "accepts_crypto": true,
+      "pays_crypto": true,
+      "verified": "2026-06-20",
+      "limitation": "Requires a funded Ethereum wallet; 0.001 ETH registration fee and 5% fee on worker payouts. Ethereum mainnet + Sepolia.",
+      "notes": "No backend/REST API: all actions are transactions or reads against the escrow contract. Machine-readable agent guide at https://moltytask.org/skill.md",
+      "libraries": ["ethers"]
     }
   ],
   "standards": [
