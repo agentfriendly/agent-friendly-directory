@@ -1000,6 +1000,21 @@
       "agents_md": false,
       "mcp_server": null,
       "verified": "2026-03-28"
+    },
+    {
+      "name": "Penny Press",
+      "url": "https://www.pennypress.org",
+      "category": "data",
+      "description": "Essays on freedom, economics and philosophy. Free for humans to read; AI agents pay per read via x402 micropayments (USDC on Base, $0.01-$0.05).",
+      "autonomous_signup": true,
+      "signup_method": "None - no account or signup required",
+      "auth_method": "x402 payment (no API key)",
+      "mcp_server": "https://www.pennypress.org/mcp",
+      "llms_txt": true,
+      "agents_md": false,
+      "accepts_crypto": true,
+      "pays_crypto": false,
+      "verified": "2026-09-29"
     }
   ],
   "standards": [
