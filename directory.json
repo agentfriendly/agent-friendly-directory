@@ -1037,6 +1037,21 @@
       "name": "ai.txt",
       "description": "Proposed DSL for declaring what AI interactions a site allows.",
       "status": "proposed"
+    },
+    {
+      "name": "Datacircle",
+      "url": "https://datacircle.dev",
+      "category": "data",
+      "description": "Find the best GTM APIs. Free open API with no key: list every API, see who is best for each and search every plan.",
+      "autonomous_signup": true,
+      "signup_method": "None needed. GET https://api.datacircle.dev/v1/apis (spec: https://api.datacircle.dev/v1/openapi.json)",
+      "auth_method": "none",
+      "mcp_server": "https://api.datacircle.dev/mcp",
+      "llms_txt": true,
+      "agents_md": false,
+      "accepts_crypto": false,
+      "pays_crypto": false,
+      "verified": "2026-11-16"
     }
   ]
 }
